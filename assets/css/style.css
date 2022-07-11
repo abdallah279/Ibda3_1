@@ -79,6 +79,11 @@ section{
     color: #fff;
     background-color: #222831;
 }
+@media screen and(max-width:450px) {
+    .btn-section a{
+        padding: 10px 40px;
+    }
+}
 
 .heading-page{
     margin-right: 20px;
@@ -92,10 +97,10 @@ section{
 
 @media screen and (max-width:767px) {
     .heading-page{
-        margin-right: 10px;
+        margin-right: 8px;
     }
     .heading-page h2{
-        padding: 5px 12px 8px 0;
+        padding: 5px 10px 8px 0;
         border-right: 4px solid var(--sec-color);
     }
 }
@@ -539,5 +544,10 @@ section{
 @media screen and (max-width:991px) {
     .info .card{
         width: 100%;
+    }
+}
+@media screen and (max-width:500px) {
+    .info .card{
+        padding: 60px 25px;
     }
 }

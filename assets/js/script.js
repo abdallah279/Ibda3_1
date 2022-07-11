@@ -10,7 +10,8 @@ $(document).ready(function(){
         autoplayHoverPause:true,
         responsive:{
             0:{
-                items:1
+                items:1,
+                nav:false
             },
             600:{
                 items:2
@@ -33,7 +34,8 @@ $(document).ready(function(){
         responsiveClass:true,
         responsive:{
             0:{
-                items:2
+                items:2,
+                nav:false
             },
             600:{
                 items:3
